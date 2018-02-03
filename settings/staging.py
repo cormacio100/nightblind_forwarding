@@ -9,7 +9,7 @@ DATABASES = {
     }
 }
 
-ALLOWED_HOSTS.append('albino-winos.herokuapp.com','nightblind.herokuapp.com')
+ALLOWED_HOSTS.append('nightblind.herokuapp.com')
 
 
 # Log DEBUG information to the console

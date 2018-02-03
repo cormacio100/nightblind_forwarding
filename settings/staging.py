@@ -9,6 +9,9 @@ DATABASES = {
     }
 }
 
+ALLOWED_HOSTS.append('albino-winos.herokuapp.com')
+
+
 # Log DEBUG information to the console
 LOGGING = {
     'version': 1,

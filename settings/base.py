@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'vr5eo$rx%*%bbramirnxz6f48j_do$w8@(d_si@1$3^pvd3bme'
 
-ALLOWED_HOSTS = ['albino-winos.herokuapp.com/','localhost','127.0.0.1']
+ALLOWED_HOSTS = ['localhost','127.0.0.1']
 SITE_ID = 2
 
 # Application definition

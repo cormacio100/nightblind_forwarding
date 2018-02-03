@@ -1,0 +1,5 @@
+Build RESTFUL API that can be used with the front end site
+https://cormacio100.github.io/nightblind/
+-   Used to store Band Data
+
+Can also, create an S3 bucket to hold imagery

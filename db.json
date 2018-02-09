@@ -50,7 +50,8 @@
         "short_name": "Cormac_Liston",
         "name": "Cormac Liston",
         "instrument": "Guitar / Vocals",
-        "gear": "Fender Blacktop Stratocaster HH, Epiphone Les Paul - Zakk Wylde Custom, Vox AC30 VR"
+        "gear": "Fender Blacktop Stratocaster HH, Epiphone Les Paul - Zakk Wylde Custom, Vox AC30 VR",
+        "img": "2018-02-09 20:05:20.738000+00:00"
     }
 },
 {
@@ -60,7 +61,8 @@
         "short_name": "Hugh_OConnor",
         "name": "Hugh O'Connor",
         "instrument": "Guitar / Vocals",
-        "gear": "Fender Stratocaster, Vox AC30 VR"
+        "gear": "Fender Stratocaster, Vox AC30 VR",
+        "img": "2018-02-09 20:05:20.738000+00:00"
     }
 },
 {
@@ -70,7 +72,8 @@
         "short_name": "Davy_Dwyer",
         "name": "Davy Dwyer",
         "instrument": "Drums",
-        "gear": "Peavy, Paiste - Nicko McBrain Custom"
+        "gear": "Peavy, Paiste - Nicko McBrain Custom",
+        "img": "2018-02-09 20:05:20.738000+00:00"
     }
 },
 {
@@ -80,7 +83,8 @@
         "short_name": "Freek_Vermeer",
         "name": "Nick Peris",
         "instrument": "Bass",
-        "gear": "Rickenbacker Bass, Trace Elliot"
+        "gear": "Rickenbacker Bass, Trace Elliot",
+        "img": "2018-02-09 20:05:20.738000+00:00"
     }
 },
 {

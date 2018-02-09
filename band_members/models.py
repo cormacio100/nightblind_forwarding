@@ -15,6 +15,7 @@ class Band_Member(models.Model):
     name = models.CharField(max_length=100,null=False)
     instrument = models.CharField(max_length=150,null=False)
     gear = models.CharField(max_length=150,null=False)
+    img = models.CharField(max_length=150,null=False)
 
     def __unicode__(self):
         return self.name

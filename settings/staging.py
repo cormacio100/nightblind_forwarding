@@ -9,6 +9,7 @@ DATABASES = {
     }
 }
 
+SITE_URL = 'https://nightblind.herokuapp.com'
 ALLOWED_HOSTS.append('nightblind.herokuapp.com')
 
 

@@ -35,7 +35,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home',
-    'settings'
+    'band_members',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

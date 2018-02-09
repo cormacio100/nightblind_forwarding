@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'home',
     'band_members',
     'rest_framework',
+    'rest_framework_docs'
 ]
 
 MIDDLEWARE = [

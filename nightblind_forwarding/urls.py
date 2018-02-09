@@ -20,5 +20,6 @@ from home import views as home_views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$',home_views.get_index, name="index"),
-    url(r'^band_members/',include('band_members.urls'))
+    url(r'^band_members/',include('band_members.urls')),
+    url(r'^docs/', include('rest_framework_docs.urls'))
 ]

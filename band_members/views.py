@@ -6,10 +6,15 @@ from rest_framework import status
 from band_members.serializers import BandMemberSerializer
 from band_members.models import Band_Member
 
+"""
+USER AUTHENTICATION HAS NOT BEEN USED IN THIS PROJECT YET
+"""
+
+
 class BandMemberView(APIView):
     """
         BandMemberView used to handle the incoming requests relating to
-        `band_member` items
+        groups and individual `band_member` items
     """
     def get(self,request,pk=None):
         """
@@ -34,7 +39,10 @@ class BandMemberView(APIView):
             serialized_data = serializer.data
             return Response(serialized_data)
 
-
+    """
+        Used to handle the incoming POST requests relating to
+        CREATING `band_member` items
+    """
     def post(self,request):
         """
         Handle POST requests for the 'band_members/' endpoint
@@ -61,7 +69,10 @@ class BandMemberView(APIView):
             serializer.save()
             return Response(serializer.data,
                             status=status.HTTP_201_CREATED)
-
+    """
+        Used to handle the incoming PUT requests relating to
+        UPDATINGS individual `band_member` items
+    """
     def put(self,request,pk):
         """
         Handle PUT request for the 'band_members/' endpoint
@@ -89,6 +100,10 @@ class BandMemberView(APIView):
             serializer.save()
             return Response(serializer.data)
 
+    """
+        Used to handle the incoming DELETE requests relating to
+        individual `band_member` items
+    """
     def delete(self,request,pk):
         """
         Handle DELETE request for the 'band_member' endpoint

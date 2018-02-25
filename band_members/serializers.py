@@ -16,4 +16,4 @@ class BandMemberSerializer(serializers.ModelSerializer):
     class Meta:
         model = Band_Member
         fields = ('id', 'short_name', 'name',
-                  'instrument', 'gear')
+                  'instrument', 'gear','img')
